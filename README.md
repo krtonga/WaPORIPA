@@ -47,6 +47,17 @@ To be able to interpret the analyses, it is important to have crop type informat
 
 ## Requirements
 All scripts can be run in Colab or on a local computer (see for example of [installation instructions for mamba](https://courses.gisopencourseware.org/mod/book/view.php?id=430&chapterid=1427) with lots of interesting educational materials. For a good understanding of the scripts presented here, we advise to have followed (and completed our open access course on ['Python for Geospatial analyses using WaPOR data'](https://ocw.un-ihe.org/user/index.php?id=272))
+
+### Additional details for local setup
+To make it easier to run the notebooks locally, an `environment.yml` file has been provided in the repository root. With [mamba](https://github.com/conda-forge/miniforge) installed, create the environment with:
+
+```bash
+mamba env create -f environment.yml
+conda activate waporipa
+```
+
+See [`Notebooks_v1.0/OPTIONAL_Setup_Local_Environment.ipynb`](Notebooks_v1.0/OPTIONAL_Setup_Local_Environment.ipynb) for a step-by-step walkthrough. 
+
 ![image](https://github.com/wateraccounting/WaPORMOOC/blob/main/images/Banner%2Cpython%2CWaPOR.jpeg)
 
 ## Acknowledgements

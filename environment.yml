@@ -1,0 +1,25 @@
+name: waporipa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  # Jupyter
+  - jupyter
+  - ipython
+
+  # Scientific computing
+  - numpy
+  - pandas
+  - scipy
+
+  # Geospatial
+  - geopandas
+  - rasterio
+  - xarray
+  - rioxarray
+  - gdal
+  - shapely
+  
+  # Visualization
+  - matplotlib
