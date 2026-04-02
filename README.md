@@ -56,7 +56,7 @@ mamba env create -f environment.yml
 conda activate waporipa
 ```
 
-See [`Notebooks_v1.0/OPTIONAL_Setup_Local_Environment.ipynb`](Notebooks_v1.0/OPTIONAL_Setup_Local_Environment.ipynb) for a step-by-step walkthrough. 
+See [LOCAL_INSTALL.md](LOCAL_INSTALL.md) for full setup instructions. 
 
 ![image](https://github.com/wateraccounting/WaPORMOOC/blob/main/images/Banner%2Cpython%2CWaPOR.jpeg)
 
